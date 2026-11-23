@@ -7,13 +7,14 @@
 </head>
 
 <body>
+    <h1>Tiffany Liu Deployment Page</h1>
 	<ul>
-        <li><strong>Name: </strong> Tiffany Liu </li>
-        <li><strong>GitHub Location: </strong> Tiffany Liu </li>
-        <li><strong>Render Location: </strong> Tiffany Liu </li>
-        <li><strong>Clearing Database Movies:  </strong> Tiffany Liu </li>
-        <li><strong>Inserting Movies: </strong> Tiffany Liu </li>
-        <li><strong>List Movies:  </strong> Tiffany Liu </li>
+        <li><strong>Name: </strong> Tiffany Liu</li>
+        <li><strong>GitHub Location: </strong> <a href="https://github.com/tiffanyliu0518/tliu0842TERP"> </li>
+        <li><strong>Render Location: </strong> <a href="https://tliu0842terp.onrender.com/"> </li> 
+        <li><strong>Clearing Database Movies:  </strong> <a href="https://tliu0842terp.onrender.com/clearCollection"> </li>
+        <li><strong>Inserting Movies: </strong> <a href="https://tliu0842terp.onrender.com/insertMovies"> </li>
+        <li><strong>List Movies:  </strong> <a href="https://tliu0842terp.onrender.com/listMovies"> </li>
 
 
     </ul>
