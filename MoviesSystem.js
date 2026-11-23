@@ -22,7 +22,7 @@ const client = new MongoClient(uri, { serverApi: ServerApiVersion.v1 });
 const indexPath = path.resolve(__dirname, "deploy", "index.shtml");
 
 app.get("/", async (req, res) => {
-   res.sendFile(indexPath);
+   res.send(`My Deployment`);
 });
 
 app.get("/insertMovies", async (req, res) => {
