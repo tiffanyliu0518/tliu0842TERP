@@ -19,9 +19,10 @@ const databaseName = "CMSC335DB";
 const collectionName = "moviesCollection";
 const uri = process.env.MONGO_CONNECTION_STRING;
 const client = new MongoClient(uri, { serverApi: ServerApiVersion.v1 });
+const indexPath = path.resolve(__dirname, "deploy", "index.shtml");
 
 app.get("/", async (req, res) => {
-   res.render('index');
+   res.sendFile(indexPath);
 });
 
 app.get("/insertMovies", async (req, res) => {
